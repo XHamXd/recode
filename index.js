@@ -512,12 +512,7 @@ sw =`┏━━━━━━━━━━━━━━⬣
 ┃▰▰▰▰▰▰▰▰▰▰▰▰▰▰
 ┃⬣〔  SISTEM 〕⬣
 ┃⬡ TF - SEND BUKTI - JOIN GRUP
-┃▰▰▰▰▰▰▰▰▰▰▰▰▰▰
-┃ *PAYMENT*
-┃Dana : 0881-7864-684
-┃Ovo : 0823-1646-4080
-┃Pulsa : 0823-1646-4080
-┃
+┃▰▰▰▰▰▰
 ┃Note :
 ┃Jika Sudah Transfer Wajib Kirim
 ┃Bukti Transfer Ke Nomor Di Bawah
@@ -1067,15 +1062,15 @@ ${bb++}.${simbol} #sound23
 ${bb++}.${simbol} #sound24
 ${bb++}.${simbol} #sound25`
 but = [
-{ buttonId: `${prefix}scbot`, buttonText: { displayText: '𝙎𝙘𝙧𝙞𝙥𝙩 𝘽𝙤𝙩🎟️' }, type: 1 },
-{ buttonId: `${prefix}owner`, buttonText: { displayText: '️𝙊𝙬𝙣𝙚𝙧 𝘽𝙤𝙩🤖️' }, type: 1 },
-{ buttonId: `${prefix}store`, buttonText: { displayText: '️𝙎𝙩𝙤𝙧𝙚 𝙈𝙚𝙣𝙪🛒' }, type: 1 }
+{ buttonId: `${prefix}scbot`, buttonText: { displayText: 'GRUB RARA' }, type: 1 },
+{ buttonId: `${prefix}owner`, buttonText: { displayText: '️OWNER BOT' }, type: 1 },
+{ buttonId: `${prefix}store`, buttonText: { displayText: '️MENU KOSONG' }, type: 1 }
 ]
 sendButLoc(from, st, st2, img1, but)
 Lexxy.sendMessage(from, yu, audio, { mimetype: 'audio/mp4', ptt:true })
 break
 case 'scbot':
-reply('Bot ini Menggunakan sc\nPribadi')
+reply('Link Grub Rara\nhttps://chat.whatsapp.com/I1ZI6FBx56p8Uj9tT4B2Jy')
 break
 case 'runtime':
 uptime = process.uptime();
